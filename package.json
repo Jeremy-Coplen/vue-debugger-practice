@@ -1,6 +1,7 @@
 {
   "name": "vue-debugger-practice",
   "version": "0.0.0",
+  "main": "Server/Server.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
