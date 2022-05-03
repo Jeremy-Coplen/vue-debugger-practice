@@ -3,15 +3,13 @@
 </script>
 
 <template>
-  <header>
-    <header class="app-header">
+  <header class="app-header">
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
     <h1>Simple Debugger</h1>
     <nav>
       <RouterLink class="nav-btn" active-class="nav-active" to="/">Home</RouterLink>
       <RouterLink class="nav-btn" active-class="nav-active" to="/about">About</RouterLink>
     </nav>
-  </header>
   </header>
 
   <RouterView />
